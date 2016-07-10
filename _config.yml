@@ -1,0 +1,21 @@
+# Site settings
+title: Climbing the Mountain
+header-img: img/home-bg.png
+email: jenniration@gmail.com
+copyright_name: JenDixon
+description: > # this means to ignore newlines until "baseurl:"
+  I'll probably never get to the top.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  JenDixon
+learn_profile: JenDixon
+email_username: jenniration@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
